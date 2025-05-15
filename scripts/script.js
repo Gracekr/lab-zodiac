@@ -2,7 +2,7 @@
 
  function algo() {
 
-    const signo = document.getElementById("sign").value;
+    const signo = document.getElementById("sign").value.trim().lowercase();
    
 
     switch (signo) {
